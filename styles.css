@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #1f2937;
+  color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  max-width: 50%;
+}
+
+.section-random-info {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+.box-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section-quote {
+  padding-top: 50px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 100px;
+  background-color: lightgray;
+  font-size: 24px;
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.section-signup {
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+}
+
+.banner {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+}
